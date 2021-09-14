@@ -6,8 +6,12 @@ body {
 }
 
 a {
-  color: #fff;
+  color: rgb(248, 248, 248);
   text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(197, 95, 11);
 }
 
 ul {
@@ -19,7 +23,7 @@ ul {
 }
 
 #container {
-  background: #333;
+  background: rgba(15, 105, 207, 0.445);
   width: 960px;
   margin: 30px auto;
   overflow: hidden;
@@ -28,12 +32,12 @@ ul {
 
 #nav {
   height: 40px;
-  background: #666;
+  background: rgba(153, 92, 13, 0.404);
 }
 
 #nav ul {
-  padding-top: 13px;
-  padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
 }
 
 #nav li {
@@ -44,7 +48,7 @@ ul {
 
 #nav .active {
   font-weight: bold;
-  color: #000;
+  color: rgb(252, 172, 0);
 }
 
 #main {
@@ -70,10 +74,10 @@ ul {
 .opintojaksot li {
   border-bottom: 2px;
   padding-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .opintojaksot a {
-  background: #666;
+  background: rgb(238, 232, 232);
   padding: 10px;
 }
 
